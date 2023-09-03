@@ -1,8 +1,6 @@
-using Avalonia.Controls;
+namespace UserControlsMVVM.Window;
 
-namespace UserControlsMVVM;
-
-public partial class MainWindow : Window
+public partial class MainWindow : Avalonia.Controls.Window
 {
     public MainWindow()
     {
